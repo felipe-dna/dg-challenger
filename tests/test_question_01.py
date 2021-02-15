@@ -7,7 +7,11 @@ from src.exceptions import (
     MinimumListItemValueError
 )
 
-from src.question_01 import get_unique_and_ordered_items
+from src.question_01 import (
+    get_unique_and_ordered_items,
+    MAXIMUM_PERMITTED_SIZE,
+    MINIMUM_PERMITTED_SIZE
+)
 
 
 FIRST_ENTRY = [10, 10, 9, 9, 8, 8, 7, 7, 6, 6]
@@ -41,7 +45,7 @@ def test_send_an_max_size_smaller_than_the_allowed() -> None:
 
 def test_send_an_list_number_higher_than_the_allowed() -> None:
     max_size = 10
-    elements_list = [1, 2, 3, 10001]
+    elements_list = [1, 2, 3, (MAXIMUM_PERMITTED_SIZE + 1)]
 
     with pytest.raises(MaximumListItemValueError):
         get_unique_and_ordered_items(max_size, *elements_list)
@@ -49,7 +53,7 @@ def test_send_an_list_number_higher_than_the_allowed() -> None:
 
 def test_send_an_list_number_smaller_than_the_allowed() -> None:
     max_size = 3
-    elements_list = [1, 2, 0]
+    elements_list = [1, 2, (MINIMUM_PERMITTED_SIZE - 1)]
 
     with pytest.raises(MinimumListItemValueError):
         get_unique_and_ordered_items(max_size, *elements_list)
