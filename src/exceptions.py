@@ -19,3 +19,8 @@ class MaximumListItemValueError(Exception):
     def __init__(self) -> None:
         self.message = 'The numbers list you sent contains numbers larger ' \
                        'than allowed.'
+
+
+class InvalidOperatorError(Exception):
+    def __init__(self, operator: str) -> None:
+        self.message = f'{operator} is not a valid operator.'
