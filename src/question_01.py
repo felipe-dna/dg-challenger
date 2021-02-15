@@ -31,11 +31,8 @@ def get_unique_and_ordered_items(
     elif len(numbers) > max_size:
         raise ListOverSizeError(max_size)
 
-    try:
-        unique_numbers_set: Set[int] = set(numbers)
-        sorted_numbers: List[int] = sorted(unique_numbers_set)
-    except Exception as e:
-        print(e)
+    unique_numbers_set: Set[int] = set(numbers)
+    sorted_numbers: List[int] = sorted(unique_numbers_set)
 
     check_numbers_in_list_size(sorted_numbers)
 
