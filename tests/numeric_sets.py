@@ -7,7 +7,7 @@ from src.exceptions import (
     MinimumListItemValueError
 )
 
-from src.question_01 import (
+from src.numeric_sets import (
     get_unique_and_ordered_items,
     MAXIMUM_PERMITTED_SIZE,
     MINIMUM_PERMITTED_SIZE
