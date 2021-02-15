@@ -1,0 +1,175 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="DuplicatedCode" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="Eslint" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="HtmlUnknownAttribute" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="myValues">
+        <value>
+          <list size="2">
+            <item index="0" class="java.lang.String" itemvalue="matinput" />
+            <item index="1" class="java.lang.String" itemvalue="cdkfocusinitial" />
+          </list>
+        </value>
+      </option>
+      <option name="myCustomValuesEnabled" value="true" />
+    </inspection_tool>
+    <inspection_tool class="HtmlUnknownTag" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="myValues">
+        <value>
+          <list size="7">
+            <item index="0" class="java.lang.String" itemvalue="nobr" />
+            <item index="1" class="java.lang.String" itemvalue="noembed" />
+            <item index="2" class="java.lang.String" itemvalue="comment" />
+            <item index="3" class="java.lang.String" itemvalue="noscript" />
+            <item index="4" class="java.lang.String" itemvalue="embed" />
+            <item index="5" class="java.lang.String" itemvalue="script" />
+            <item index="6" class="java.lang.String" itemvalue="mat-checkbox" />
+          </list>
+        </value>
+      </option>
+      <option name="myCustomValuesEnabled" value="true" />
+    </inspection_tool>
+    <inspection_tool class="PyCompatibilityInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ourVersions">
+        <value>
+          <list size="4">
+            <item index="0" class="java.lang.String" itemvalue="3.6" />
+            <item index="1" class="java.lang.String" itemvalue="3.7" />
+            <item index="2" class="java.lang.String" itemvalue="3.8" />
+            <item index="3" class="java.lang.String" itemvalue="3.9" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyFromFutureImportInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="76">
+            <item index="0" class="java.lang.String" itemvalue="PyGithub" />
+            <item index="1" class="java.lang.String" itemvalue="services" />
+            <item index="2" class="java.lang.String" itemvalue="mysqlclient" />
+            <item index="3" class="java.lang.String" itemvalue="pytest-instafail" />
+            <item index="4" class="java.lang.String" itemvalue="cython" />
+            <item index="5" class="java.lang.String" itemvalue="SQLAlchemy" />
+            <item index="6" class="java.lang.String" itemvalue="python-dateutil" />
+            <item index="7" class="java.lang.String" itemvalue="pytest-xdist" />
+            <item index="8" class="java.lang.String" itemvalue="python-slugify" />
+            <item index="9" class="java.lang.String" itemvalue="numpy" />
+            <item index="10" class="java.lang.String" itemvalue="aiocontextvars" />
+            <item index="11" class="java.lang.String" itemvalue="sentry-sdk" />
+            <item index="12" class="java.lang.String" itemvalue="pytest-cov" />
+            <item index="13" class="java.lang.String" itemvalue="pytest-profiling" />
+            <item index="14" class="java.lang.String" itemvalue="kazoo" />
+            <item index="15" class="java.lang.String" itemvalue="freezegun" />
+            <item index="16" class="java.lang.String" itemvalue="stripe" />
+            <item index="17" class="java.lang.String" itemvalue="mmh3" />
+            <item index="18" class="java.lang.String" itemvalue="cchardet" />
+            <item index="19" class="java.lang.String" itemvalue="uvloop" />
+            <item index="20" class="java.lang.String" itemvalue="msgpack-python" />
+            <item index="21" class="java.lang.String" itemvalue="schemathesis" />
+            <item index="22" class="java.lang.String" itemvalue="moz-sql-parser" />
+            <item index="23" class="java.lang.String" itemvalue="confluent-kafka" />
+            <item index="24" class="java.lang.String" itemvalue="raven" />
+            <item index="25" class="java.lang.String" itemvalue="pytest" />
+            <item index="26" class="java.lang.String" itemvalue="cryptography" />
+            <item index="27" class="java.lang.String" itemvalue="pytest-asyncio" />
+            <item index="28" class="java.lang.String" itemvalue="APScheduler" />
+            <item index="29" class="java.lang.String" itemvalue="psutil" />
+            <item index="30" class="java.lang.String" itemvalue="pytest-testmon" />
+            <item index="31" class="java.lang.String" itemvalue="ciso8601" />
+            <item index="32" class="java.lang.String" itemvalue="cachetools" />
+            <item index="33" class="java.lang.String" itemvalue="aiohttp" />
+            <item index="34" class="java.lang.String" itemvalue="mock" />
+            <item index="35" class="java.lang.String" itemvalue="yarl" />
+            <item index="36" class="java.lang.String" itemvalue="aerospike" />
+            <item index="37" class="java.lang.String" itemvalue="python-snappy" />
+            <item index="38" class="java.lang.String" itemvalue="hypothesis" />
+            <item index="39" class="java.lang.String" itemvalue="mo-future" />
+            <item index="40" class="java.lang.String" itemvalue="pycapnp" />
+            <item index="41" class="java.lang.String" itemvalue="ujson" />
+            <item index="42" class="java.lang.String" itemvalue="django-filter" />
+            <item index="43" class="java.lang.String" itemvalue="boto3" />
+            <item index="44" class="java.lang.String" itemvalue="b2sdk" />
+            <item index="45" class="java.lang.String" itemvalue="mypy-extensions" />
+            <item index="46" class="java.lang.String" itemvalue="tqdm" />
+            <item index="47" class="java.lang.String" itemvalue="asyncio" />
+            <item index="48" class="java.lang.String" itemvalue="django-session-security" />
+            <item index="49" class="java.lang.String" itemvalue="arrow" />
+            <item index="50" class="java.lang.String" itemvalue="funcsigs" />
+            <item index="51" class="java.lang.String" itemvalue="asgiref" />
+            <item index="52" class="java.lang.String" itemvalue="python-intercom" />
+            <item index="53" class="java.lang.String" itemvalue="dj-static" />
+            <item index="54" class="java.lang.String" itemvalue="logfury" />
+            <item index="55" class="java.lang.String" itemvalue="simbiose-api-django-apps" />
+            <item index="56" class="java.lang.String" itemvalue="Django" />
+            <item index="57" class="java.lang.String" itemvalue="fastapi" />
+            <item index="58" class="java.lang.String" itemvalue="pydantic" />
+            <item index="59" class="java.lang.String" itemvalue="starlette" />
+            <item index="60" class="java.lang.String" itemvalue="h11" />
+            <item index="61" class="java.lang.String" itemvalue="uvicorn" />
+            <item index="62" class="java.lang.String" itemvalue="click" />
+            <item index="63" class="java.lang.String" itemvalue="pymongo" />
+            <item index="64" class="java.lang.String" itemvalue="fdb" />
+            <item index="65" class="java.lang.String" itemvalue="boto" />
+            <item index="66" class="java.lang.String" itemvalue="paypalrestsdk" />
+            <item index="67" class="java.lang.String" itemvalue="google-cloud-storage" />
+            <item index="68" class="java.lang.String" itemvalue="requests" />
+            <item index="69" class="java.lang.String" itemvalue="redis" />
+            <item index="70" class="java.lang.String" itemvalue="flower" />
+            <item index="71" class="java.lang.String" itemvalue="simplejson" />
+            <item index="72" class="java.lang.String" itemvalue="celery" />
+            <item index="73" class="java.lang.String" itemvalue="Unidecode" />
+            <item index="74" class="java.lang.String" itemvalue="python-decouple" />
+            <item index="75" class="java.lang.String" itemvalue="passlib" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N812" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyTypeCheckerInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="template_name" />
+          <option value="form_class" />
+          <option value="api_model" />
+          <option value="api_create_model_method" />
+          <option value="allow_internal_key_use" />
+          <option value="context_object_name" />
+          <option value="api_retrieve_model_list_method" />
+          <option value="api_retrieve_model_detail_method" />
+          <option value="list_context_object_name" />
+          <option value="allow_detail" />
+          <option value="logout_required" />
+          <option value="admin_required" />
+          <option value="login_required" />
+          <option value="allowed_query_parameters" />
+          <option value="request" />
+          <option value="error_code" />
+          <option value="parameters_format" />
+          <option value="allow_preview" />
+          <option value="api_update_model_method" />
+          <option value="success_url" />
+          <option value="lookup_parameters" />
+          <option value="delete_method_name" />
+          <option value="create_form_class" />
+          <option value="update_form_class" />
+          <option value="list_method" />
+          <option value="detail_context_object_name" />
+          <option value="detail_method" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="SqlDialectInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="SqlNoDataSourceInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="TsLint" enabled="true" level="WARNING" enabled_by_default="true" />
+  </profile>
+</component>
