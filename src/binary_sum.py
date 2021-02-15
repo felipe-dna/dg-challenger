@@ -16,7 +16,7 @@ def convert_decimal_numbers_to_binary(decimal_value: float) -> str:
     return '0' * (8 - len(binary_value)) + binary_value
 
 
-def preform_operation_on_binary_value(
+def perform_operation_on_binary_value(
         value_one: str,
         value_two: str,
         calc_operator: str
